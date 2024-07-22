@@ -1,0 +1,1 @@
+/home/anthony/Desktop/Assignment7/src/build/warehouse_robot/ament_cmake_python/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt

@@ -1,0 +1,8 @@
+[  2%] Built target warehouse_robot__cpp
+[ 12%] Built target warehouse_robot__rosidl_generator_c
+failed to create symbolic link '/home/anthony/Desktop/Assignment7/build/warehouse_robot/ament_cmake_python/warehouse_robot/warehouse_robot' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_warehouse_robot.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_warehouse_robot] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_warehouse_robot.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 23%] Built target warehouse_robot__rosidl_typesupport_cpp
+gmake: *** [Makefile:146: all] Error 2

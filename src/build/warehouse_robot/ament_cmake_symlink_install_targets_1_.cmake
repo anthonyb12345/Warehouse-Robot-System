@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/anthony/Desktop/Assignment7/src/build/warehouse_robot/rosidl_generator_py/warehouse_robot/warehouse_robot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "warehouse_robot__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/warehouse_robot")

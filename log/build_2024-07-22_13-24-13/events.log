@@ -1,0 +1,494 @@
+[0.000000] (-) TimerEvent: {}
+[0.000433] (warehouse_robot) JobQueued: {'identifier': 'warehouse_robot', 'dependencies': OrderedDict()}
+[0.000617] (warehouse_robot_py) JobQueued: {'identifier': 'warehouse_robot_py', 'dependencies': OrderedDict([('warehouse_robot', '/home/anthony/Desktop/Assignment7/install/warehouse_robot')])}
+[0.000709] (warehouse_robot) JobStarted: {'identifier': 'warehouse_robot'}
+[0.032716] (warehouse_robot) JobProgress: {'identifier': 'warehouse_robot', 'progress': 'cmake'}
+[0.038886] (warehouse_robot) JobProgress: {'identifier': 'warehouse_robot', 'progress': 'build'}
+[0.044372] (warehouse_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anthony/Desktop/Assignment7/build/warehouse_robot', '--', '-j2', '-l2'], 'cwd': '/home/anthony/Desktop/Assignment7/build/warehouse_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'anthony'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anthony'), ('OLDPWD', '/home/anthony'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '3147'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anthony'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anthony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anthony-virtual-machine:@/tmp/.ICE-unix/2901,unix/anthony-virtual-machine:/tmp/.ICE-unix/2901'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8084db5_1eed_446f_aa71_8813fa31fbe5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R89UQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anthony/Desktop/Assignment7/build/warehouse_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.091560] (-) TimerEvent: {}
+[0.192697] (-) TimerEvent: {}
+[0.294051] (-) TimerEvent: {}
+[0.395657] (-) TimerEvent: {}
+[0.496681] (-) TimerEvent: {}
+[0.597696] (-) TimerEvent: {}
+[0.698828] (-) TimerEvent: {}
+[0.799875] (-) TimerEvent: {}
+[0.901221] (-) TimerEvent: {}
+[0.925543] (warehouse_robot) StdoutLine: {'line': b'[  2%] Built target warehouse_robot__cpp\n'}
+[1.001791] (-) TimerEvent: {}
+[1.050573] (warehouse_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target warehouse_robot__rosidl_generator_c\x1b[0m\n'}
+[1.102256] (-) TimerEvent: {}
+[1.203457] (-) TimerEvent: {}
+[1.251622] (warehouse_robot) StdoutLine: {'line': b'[ 12%] Built target warehouse_robot__rosidl_generator_c\n'}
+[1.303698] (-) TimerEvent: {}
+[1.404825] (-) TimerEvent: {}
+[1.506281] (-) TimerEvent: {}
+[1.607747] (-) TimerEvent: {}
+[1.681604] (warehouse_robot) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_warehouse_robot\n'}
+[1.708263] (-) TimerEvent: {}
+[1.756744] (warehouse_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target warehouse_robot__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.808855] (-) TimerEvent: {}
+[1.870686] (warehouse_robot) StdoutLine: {'line': b'[ 25%] Built target warehouse_robot__rosidl_typesupport_cpp\n'}
+[1.909360] (-) TimerEvent: {}
+[1.951898] (warehouse_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target warehouse_robot__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.009889] (-) TimerEvent: {}
+[2.023896] (warehouse_robot) StdoutLine: {'line': b'[ 35%] Built target warehouse_robot__rosidl_typesupport_fastrtps_c\n'}
+[2.109351] (warehouse_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target warehouse_robot__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.110022] (-) TimerEvent: {}
+[2.204000] (warehouse_robot) StdoutLine: {'line': b'[ 48%] Built target warehouse_robot__rosidl_typesupport_introspection_c\n'}
+[2.210829] (-) TimerEvent: {}
+[2.297177] (warehouse_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target warehouse_robot__rosidl_typesupport_c\x1b[0m\n'}
+[2.311362] (-) TimerEvent: {}
+[2.384950] (warehouse_robot) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libwarehouse_robot__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.411781] (-) TimerEvent: {}
+[2.512867] (-) TimerEvent: {}
+[2.614378] (-) TimerEvent: {}
+[2.648902] (warehouse_robot) StdoutLine: {'line': b'[ 53%] Built target warehouse_robot__rosidl_typesupport_c\n'}
+[2.714953] (-) TimerEvent: {}
+[2.722256] (warehouse_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target warehouse_robot__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.815475] (-) TimerEvent: {}
+[2.831388] (warehouse_robot) StdoutLine: {'line': b'[ 64%] Built target warehouse_robot__rosidl_typesupport_fastrtps_cpp\n'}
+[2.897161] (warehouse_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target warehouse_robot__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.916233] (-) TimerEvent: {}
+[2.997036] (warehouse_robot) StdoutLine: {'line': b'[ 76%] Built target warehouse_robot__rosidl_typesupport_introspection_cpp\n'}
+[3.016854] (-) TimerEvent: {}
+[3.118380] (-) TimerEvent: {}
+[3.219820] (-) TimerEvent: {}
+[3.320853] (-) TimerEvent: {}
+[3.421946] (-) TimerEvent: {}
+[3.523276] (-) TimerEvent: {}
+[3.624358] (-) TimerEvent: {}
+[3.725852] (-) TimerEvent: {}
+[3.826915] (-) TimerEvent: {}
+[3.928330] (-) TimerEvent: {}
+[4.029398] (-) TimerEvent: {}
+[4.130422] (-) TimerEvent: {}
+[4.231954] (-) TimerEvent: {}
+[4.333410] (-) TimerEvent: {}
+[4.435140] (-) TimerEvent: {}
+[4.482097] (warehouse_robot) StdoutLine: {'line': b'running egg_info\n'}
+[4.491088] (warehouse_robot) StdoutLine: {'line': b'writing warehouse_robot.egg-info/PKG-INFO\n'}
+[4.493788] (warehouse_robot) StdoutLine: {'line': b'writing dependency_links to warehouse_robot.egg-info/dependency_links.txt\n'}
+[4.495990] (warehouse_robot) StdoutLine: {'line': b'writing top-level names to warehouse_robot.egg-info/top_level.txt\n'}
+[4.508908] (warehouse_robot) StdoutLine: {'line': b"reading manifest file 'warehouse_robot.egg-info/SOURCES.txt'\n"}
+[4.517861] (warehouse_robot) StdoutLine: {'line': b"writing manifest file 'warehouse_robot.egg-info/SOURCES.txt'\n"}
+[4.535482] (-) TimerEvent: {}
+[4.636931] (-) TimerEvent: {}
+[4.653131] (warehouse_robot) StdoutLine: {'line': b'[ 76%] Built target ament_cmake_python_build_warehouse_robot_egg\n'}
+[4.737412] (-) TimerEvent: {}
+[4.748154] (warehouse_robot) StdoutLine: {'line': b'[ 76%] Built target warehouse_robot\n'}
+[4.837964] (-) TimerEvent: {}
+[4.844344] (warehouse_robot) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.938458] (-) TimerEvent: {}
+[5.040002] (-) TimerEvent: {}
+[5.147511] (-) TimerEvent: {}
+[5.248512] (-) TimerEvent: {}
+[5.349586] (-) TimerEvent: {}
+[5.450533] (-) TimerEvent: {}
+[5.551984] (-) TimerEvent: {}
+[5.653633] (-) TimerEvent: {}
+[5.755072] (-) TimerEvent: {}
+[5.856560] (-) TimerEvent: {}
+[5.957977] (-) TimerEvent: {}
+[6.059113] (-) TimerEvent: {}
+[6.160524] (-) TimerEvent: {}
+[6.262032] (-) TimerEvent: {}
+[6.363541] (-) TimerEvent: {}
+[6.464568] (-) TimerEvent: {}
+[6.566041] (-) TimerEvent: {}
+[6.667477] (-) TimerEvent: {}
+[6.768500] (-) TimerEvent: {}
+[6.869560] (-) TimerEvent: {}
+[6.970629] (-) TimerEvent: {}
+[7.071996] (-) TimerEvent: {}
+[7.172956] (-) TimerEvent: {}
+[7.274083] (-) TimerEvent: {}
+[7.375590] (-) TimerEvent: {}
+[7.476888] (-) TimerEvent: {}
+[7.578119] (-) TimerEvent: {}
+[7.679298] (-) TimerEvent: {}
+[7.780606] (-) TimerEvent: {}
+[7.881608] (-) TimerEvent: {}
+[7.982674] (-) TimerEvent: {}
+[8.083898] (-) TimerEvent: {}
+[8.185182] (-) TimerEvent: {}
+[8.286119] (-) TimerEvent: {}
+[8.387200] (-) TimerEvent: {}
+[8.488656] (-) TimerEvent: {}
+[8.589642] (-) TimerEvent: {}
+[8.690708] (-) TimerEvent: {}
+[8.792272] (-) TimerEvent: {}
+[8.893636] (-) TimerEvent: {}
+[8.994714] (-) TimerEvent: {}
+[9.096195] (-) TimerEvent: {}
+[9.197199] (-) TimerEvent: {}
+[9.298194] (-) TimerEvent: {}
+[9.399250] (-) TimerEvent: {}
+[9.500258] (-) TimerEvent: {}
+[9.601733] (-) TimerEvent: {}
+[9.703317] (-) TimerEvent: {}
+[9.804629] (-) TimerEvent: {}
+[9.906694] (-) TimerEvent: {}
+[10.007560] (-) TimerEvent: {}
+[10.108781] (-) TimerEvent: {}
+[10.210271] (-) TimerEvent: {}
+[10.311972] (-) TimerEvent: {}
+[10.415150] (-) TimerEvent: {}
+[10.518316] (-) TimerEvent: {}
+[10.621388] (-) TimerEvent: {}
+[10.722881] (-) TimerEvent: {}
+[10.824309] (-) TimerEvent: {}
+[10.925856] (-) TimerEvent: {}
+[11.027278] (-) TimerEvent: {}
+[11.128340] (-) TimerEvent: {}
+[11.229876] (-) TimerEvent: {}
+[11.332387] (-) TimerEvent: {}
+[11.433863] (-) TimerEvent: {}
+[11.534940] (-) TimerEvent: {}
+[11.593783] (warehouse_robot) StdoutLine: {'line': b'[ 82%] Built target warehouse_robot__py\n'}
+[11.635399] (-) TimerEvent: {}
+[11.645464] (warehouse_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target warehouse_robot__rosidl_generator_py\x1b[0m\n'}
+[11.722841] (warehouse_robot) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/warehouse_robot__rosidl_generator_py.dir/rosidl_generator_py/warehouse_robot/action/_deliver_item_s.c.o\x1b[0m\n'}
+[11.735855] (-) TimerEvent: {}
+[11.836892] (-) TimerEvent: {}
+[11.938404] (-) TimerEvent: {}
+[12.039906] (-) TimerEvent: {}
+[12.143408] (-) TimerEvent: {}
+[12.248129] (-) TimerEvent: {}
+[12.349456] (-) TimerEvent: {}
+[12.450455] (-) TimerEvent: {}
+[12.551945] (-) TimerEvent: {}
+[12.622243] (warehouse_robot) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/warehouse_robot/libwarehouse_robot__rosidl_generator_py.so\x1b[0m\n'}
+[12.652428] (-) TimerEvent: {}
+[12.753515] (-) TimerEvent: {}
+[12.816572] (warehouse_robot) StdoutLine: {'line': b'[ 87%] Built target warehouse_robot__rosidl_generator_py\n'}
+[12.853970] (-) TimerEvent: {}
+[12.929991] (warehouse_robot) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/warehouse_robot__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/warehouse_robot/_warehouse_robot_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.954448] (-) TimerEvent: {}
+[13.056047] (-) TimerEvent: {}
+[13.157069] (-) TimerEvent: {}
+[13.258087] (-) TimerEvent: {}
+[13.359377] (-) TimerEvent: {}
+[13.460517] (-) TimerEvent: {}
+[13.561962] (-) TimerEvent: {}
+[13.663032] (-) TimerEvent: {}
+[13.764535] (-) TimerEvent: {}
+[13.866015] (-) TimerEvent: {}
+[13.875680] (warehouse_robot) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/warehouse_robot/warehouse_robot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.966597] (-) TimerEvent: {}
+[14.068552] (-) TimerEvent: {}
+[14.170031] (-) TimerEvent: {}
+[14.173700] (warehouse_robot) StdoutLine: {'line': b'[ 92%] Built target warehouse_robot__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.253892] (warehouse_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target warehouse_robot__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[14.270518] (-) TimerEvent: {}
+[14.364770] (warehouse_robot) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/warehouse_robot/warehouse_robot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.371193] (-) TimerEvent: {}
+[14.472552] (-) TimerEvent: {}
+[14.574094] (-) TimerEvent: {}
+[14.587484] (warehouse_robot) StdoutLine: {'line': b'[ 94%] Built target warehouse_robot__rosidl_typesupport_introspection_c__pyext\n'}
+[14.674548] (-) TimerEvent: {}
+[14.675480] (warehouse_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target warehouse_robot__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[14.723025] (warehouse_robot) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/warehouse_robot__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/warehouse_robot/_warehouse_robot_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.774850] (-) TimerEvent: {}
+[14.879808] (-) TimerEvent: {}
+[14.981112] (-) TimerEvent: {}
+[15.082682] (-) TimerEvent: {}
+[15.184098] (-) TimerEvent: {}
+[15.285657] (-) TimerEvent: {}
+[15.387158] (-) TimerEvent: {}
+[15.482074] (warehouse_robot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/warehouse_robot/warehouse_robot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.487542] (-) TimerEvent: {}
+[15.588676] (-) TimerEvent: {}
+[15.690176] (-) TimerEvent: {}
+[15.745385] (warehouse_robot) StdoutLine: {'line': b'[100%] Built target warehouse_robot__rosidl_typesupport_c__pyext\n'}
+[15.790613] (-) TimerEvent: {}
+[15.815484] (warehouse_robot) CommandEnded: {'returncode': 0}
+[15.891385] (-) TimerEvent: {}
+[15.992600] (-) TimerEvent: {}
+[16.093592] (-) TimerEvent: {}
+[16.194592] (-) TimerEvent: {}
+[16.296154] (-) TimerEvent: {}
+[16.397183] (-) TimerEvent: {}
+[16.498486] (-) TimerEvent: {}
+[16.599667] (-) TimerEvent: {}
+[16.700469] (-) TimerEvent: {}
+[16.786329] (warehouse_robot) JobProgress: {'identifier': 'warehouse_robot', 'progress': 'install'}
+[16.801355] (-) TimerEvent: {}
+[16.906875] (warehouse_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anthony/Desktop/Assignment7/build/warehouse_robot'], 'cwd': '/home/anthony/Desktop/Assignment7/build/warehouse_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'anthony'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anthony'), ('OLDPWD', '/home/anthony'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '3147'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anthony'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anthony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anthony-virtual-machine:@/tmp/.ICE-unix/2901,unix/anthony-virtual-machine:/tmp/.ICE-unix/2901'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8084db5_1eed_446f_aa71_8813fa31fbe5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R89UQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anthony/Desktop/Assignment7/build/warehouse_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.909684] (-) TimerEvent: {}
+[16.979566] (warehouse_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.980872] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/ament_index/resource_index/rosidl_interfaces/warehouse_robot\n'}
+[16.981837] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot\n'}
+[16.982580] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv\n'}
+[16.983586] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/check_stock.h\n'}
+[16.984351] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail\n'}
+[16.985171] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__type_support.h\n'}
+[16.985782] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__functions.c\n'}
+[16.986417] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__functions.h\n'}
+[16.987111] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__struct.h\n'}
+[16.987713] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/msg\n'}
+[16.988362] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.989218] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action\n'}
+[16.989644] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/deliver_item.h\n'}
+[16.990010] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail\n'}
+[16.990295] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__functions.h\n'}
+[16.990664] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__functions.c\n'}
+[16.991118] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__type_support.h\n'}
+[16.991506] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__struct.h\n'}
+[16.991857] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/environment/library_path.sh\n'}
+[16.995704] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/environment/library_path.dsv\n'}
+[16.996937] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_generator_c.so\n'}
+[16.998013] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot\n'}
+[16.999007] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv\n'}
+[16.999887] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail\n'}
+[17.000763] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__rosidl_typesupport_fastrtps_c.h\n'}
+[17.001377] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/msg\n'}
+[17.002001] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.002696] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action\n'}
+[17.003380] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail\n'}
+[17.003984] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__rosidl_typesupport_fastrtps_c.h\n'}
+[17.004724] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_typesupport_fastrtps_c.so\n'}
+[17.011640] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot\n'}
+[17.012115] (-) TimerEvent: {}
+[17.012550] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv\n'}
+[17.012913] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail\n'}
+[17.013251] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__rosidl_typesupport_introspection_c.h\n'}
+[17.014099] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__type_support.c\n'}
+[17.014854] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/msg\n'}
+[17.015686] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.016142] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action\n'}
+[17.016500] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail\n'}
+[17.017131] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__type_support.c\n'}
+[17.017553] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__rosidl_typesupport_introspection_c.h\n'}
+[17.018007] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_typesupport_introspection_c.so\n'}
+[17.023672] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_typesupport_c.so\n'}
+[17.024666] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot\n'}
+[17.032107] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv\n'}
+[17.032634] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/check_stock.hpp\n'}
+[17.033055] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail\n'}
+[17.033428] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__builder.hpp\n'}
+[17.033766] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__struct.hpp\n'}
+[17.034147] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__traits.hpp\n'}
+[17.034522] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action\n'}
+[17.034949] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/deliver_item.hpp\n'}
+[17.035744] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail\n'}
+[17.036585] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__traits.hpp\n'}
+[17.037135] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__struct.hpp\n'}
+[17.037711] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__builder.hpp\n'}
+[17.038284] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot\n'}
+[17.043956] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv\n'}
+[17.045794] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail\n'}
+[17.046416] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.059414] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/dds_fastrtps\n'}
+[17.060007] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/msg\n'}
+[17.060477] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.060781] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action\n'}
+[17.061137] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail\n'}
+[17.061518] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.061863] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/dds_fastrtps\n'}
+[17.062181] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_typesupport_fastrtps_cpp.so\n'}
+[17.062589] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot\n'}
+[17.063222] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv\n'}
+[17.063724] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail\n'}
+[17.064109] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__type_support.cpp\n'}
+[17.064533] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.064882] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action\n'}
+[17.065185] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail\n'}
+[17.065529] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__type_support.cpp\n'}
+[17.065870] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.066214] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_typesupport_introspection_cpp.so\n'}
+[17.069474] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_typesupport_cpp.so\n'}
+[17.069899] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/environment/pythonpath.sh\n'}
+[17.070250] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/environment/pythonpath.dsv\n'}
+[17.070640] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot-0.0.0-py3.10.egg-info\n'}
+[17.084015] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[17.084487] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[17.084771] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[17.085123] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[17.085560] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot\n'}
+[17.085846] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/srv\n'}
+[17.086175] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/srv/_check_stock.py\n'}
+[17.086509] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/srv/__init__.py\n'}
+[17.086779] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/srv/_check_stock_s.c\n'}
+[17.095674] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/libwarehouse_robot__rosidl_generator_py.so\n'}
+[17.096041] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/_warehouse_robot_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[17.096358] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/_warehouse_robot_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[17.096562] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/warehouse_robot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.096739] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/_warehouse_robot_s.ep.rosidl_typesupport_c.c\n'}
+[17.096961] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/__init__.py\n'}
+[17.097123] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/warehouse_robot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.097281] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/action\n'}
+[17.097551] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/action/__init__.py\n'}
+[17.097742] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/action/_deliver_item_s.c\n'}
+[17.097997] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/action/_deliver_item.py\n'}
+[17.098164] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/warehouse_robot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.112519] (-) TimerEvent: {}
+[17.214029] (-) TimerEvent: {}
+[17.246357] (warehouse_robot) StdoutLine: {'line': b"Listing '/home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot'...\n"}
+[17.247294] (warehouse_robot) StdoutLine: {'line': b"Listing '/home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/action'...\n"}
+[17.247894] (warehouse_robot) StdoutLine: {'line': b"Listing '/home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/srv'...\n"}
+[17.271389] (warehouse_robot) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/warehouse_robot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.273920] (warehouse_robot) StdoutLine: {'line': b'-- Set runtime path of "/home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/warehouse_robot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.275040] (warehouse_robot) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/warehouse_robot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.276867] (warehouse_robot) StdoutLine: {'line': b'-- Set runtime path of "/home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/warehouse_robot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.277849] (warehouse_robot) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/warehouse_robot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.284433] (warehouse_robot) StdoutLine: {'line': b'-- Set runtime path of "/home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/warehouse_robot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.290680] (warehouse_robot) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_generator_py.so\n'}
+[17.293481] (warehouse_robot) StdoutLine: {'line': b'-- Set runtime path of "/home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_generator_py.so" to ""\n'}
+[17.294747] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/action/DeliverItem.idl\n'}
+[17.296522] (warehouse_robot) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/srv/CheckStock.idl\n'}
+[17.297440] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/action/DeliverItem.action\n'}
+[17.298159] (warehouse_robot) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/srv/CheckStock.srv\n'}
+[17.298601] (warehouse_robot) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/srv/CheckStock_Request.msg\n'}
+[17.299414] (warehouse_robot) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/srv/CheckStock_Response.msg\n'}
+[17.300074] (warehouse_robot) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/ament_index/resource_index/package_run_dependencies/warehouse_robot\n'}
+[17.301855] (warehouse_robot) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/ament_index/resource_index/parent_prefix_path/warehouse_robot\n'}
+[17.303969] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/environment/ament_prefix_path.sh\n'}
+[17.304622] (warehouse_robot) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/environment/ament_prefix_path.dsv\n'}
+[17.306552] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/environment/path.sh\n'}
+[17.307478] (warehouse_robot) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/environment/path.dsv\n'}
+[17.308249] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/local_setup.bash\n'}
+[17.308668] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/local_setup.sh\n'}
+[17.309067] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/local_setup.zsh\n'}
+[17.309654] (warehouse_robot) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/local_setup.dsv\n'}
+[17.310094] (warehouse_robot) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/package.dsv\n'}
+[17.314420] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/ament_index/resource_index/packages/warehouse_robot\n'}
+[17.315895] (-) TimerEvent: {}
+[17.317482] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_generator_cExport.cmake\n'}
+[17.319881] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.324429] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[17.326557] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[17.327172] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robot__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.348714] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robot__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.349162] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robot__rosidl_typesupport_cExport.cmake\n'}
+[17.349552] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robot__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.349878] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_generator_cppExport.cmake\n'}
+[17.350265] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[17.350610] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[17.373725] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robot__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.374946] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robot__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.375502] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robot__rosidl_typesupport_cppExport.cmake\n'}
+[17.375878] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robot__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.376223] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_generator_pyExport.cmake\n'}
+[17.376589] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_generator_pyExport-noconfig.cmake\n'}
+[17.376954] (warehouse_robot) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/rosidl_cmake-extras.cmake\n'}
+[17.377279] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.377653] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.377992] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.378287] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.399871] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.400560] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.400997] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robotConfig.cmake\n'}
+[17.401386] (warehouse_robot) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robotConfig-version.cmake\n'}
+[17.401722] (warehouse_robot) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/package.xml\n'}
+[17.418699] (warehouse_robot) CommandEnded: {'returncode': 0}
+[17.423936] (-) TimerEvent: {}
+[17.527656] (-) TimerEvent: {}
+[17.628996] (-) TimerEvent: {}
+[17.730247] (-) TimerEvent: {}
+[17.832054] (-) TimerEvent: {}
+[17.933581] (-) TimerEvent: {}
+[18.035342] (-) TimerEvent: {}
+[18.135175] (warehouse_robot) JobEnded: {'identifier': 'warehouse_robot', 'rc': 0}
+[18.136468] (-) TimerEvent: {}
+[18.137364] (warehouse_robot_py) JobStarted: {'identifier': 'warehouse_robot_py'}
+[18.236618] (-) TimerEvent: {}
+[18.337595] (-) TimerEvent: {}
+[18.438604] (-) TimerEvent: {}
+[18.540109] (-) TimerEvent: {}
+[18.641101] (-) TimerEvent: {}
+[18.742113] (-) TimerEvent: {}
+[18.843151] (-) TimerEvent: {}
+[18.944125] (-) TimerEvent: {}
+[19.045126] (-) TimerEvent: {}
+[19.146164] (-) TimerEvent: {}
+[19.247678] (-) TimerEvent: {}
+[19.348681] (-) TimerEvent: {}
+[19.449670] (-) TimerEvent: {}
+[19.550739] (-) TimerEvent: {}
+[19.652171] (-) TimerEvent: {}
+[19.753184] (-) TimerEvent: {}
+[19.854233] (-) TimerEvent: {}
+[19.955685] (-) TimerEvent: {}
+[20.056752] (-) TimerEvent: {}
+[20.157859] (-) TimerEvent: {}
+[20.258732] (-) TimerEvent: {}
+[20.359898] (-) TimerEvent: {}
+[20.461201] (-) TimerEvent: {}
+[20.562188] (-) TimerEvent: {}
+[20.663292] (-) TimerEvent: {}
+[20.764284] (-) TimerEvent: {}
+[20.865293] (-) TimerEvent: {}
+[20.966622] (-) TimerEvent: {}
+[21.067807] (-) TimerEvent: {}
+[21.171177] (-) TimerEvent: {}
+[21.272363] (-) TimerEvent: {}
+[21.375331] (-) TimerEvent: {}
+[21.476314] (-) TimerEvent: {}
+[21.580485] (-) TimerEvent: {}
+[21.683258] (-) TimerEvent: {}
+[21.754323] (warehouse_robot_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/warehouse_robot_py', 'build', '--build-base', '/home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build', 'install', '--record', '/home/anthony/Desktop/Assignment7/build/warehouse_robot_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/anthony/Desktop/Assignment7/src/warehouse_robot_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'anthony', 'LC_TIME': 'ar_LB.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/anthony/Desktop/Assignment7/install/warehouse_robot/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/anthony', 'OLDPWD': '/home/anthony', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_LB.UTF-8', 'SYSTEMD_EXEC_PID': '3147', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'anthony', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anthony', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anthony-virtual-machine:@/tmp/.ICE-unix/2901,unix/anthony-virtual-machine:/tmp/.ICE-unix/2901', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_LB.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a8084db5_1eed_446f_aa71_8813fa31fbe5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_LB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.R89UQ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.93', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/anthony/Desktop/Assignment7/install/warehouse_robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_LB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_LB.UTF-8', 'LC_IDENTIFICATION': 'ar_LB.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anthony/Desktop/Assignment7/build/warehouse_robot_py', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/anthony/Desktop/Assignment7/build/warehouse_robot_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages:/home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_LB.UTF-8', 'LC_PAPER': 'ar_LB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/anthony/Desktop/Assignment7/install/warehouse_robot'}, 'shell': False}
+[21.783795] (-) TimerEvent: {}
+[21.884787] (-) TimerEvent: {}
+[21.985888] (-) TimerEvent: {}
+[22.086903] (-) TimerEvent: {}
+[22.188327] (-) TimerEvent: {}
+[22.289364] (-) TimerEvent: {}
+[22.390331] (-) TimerEvent: {}
+[22.491396] (-) TimerEvent: {}
+[22.592493] (-) TimerEvent: {}
+[22.693891] (-) TimerEvent: {}
+[22.795457] (-) TimerEvent: {}
+[22.896899] (-) TimerEvent: {}
+[22.997880] (-) TimerEvent: {}
+[23.099030] (-) TimerEvent: {}
+[23.200469] (-) TimerEvent: {}
+[23.225927] (warehouse_robot_py) StdoutLine: {'line': b'running egg_info\n'}
+[23.234920] (warehouse_robot_py) StdoutLine: {'line': b'creating ../../build/warehouse_robot_py/warehouse_robot_py.egg-info\n'}
+[23.235766] (warehouse_robot_py) StdoutLine: {'line': b'writing ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/PKG-INFO\n'}
+[23.236419] (warehouse_robot_py) StdoutLine: {'line': b'writing dependency_links to ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/dependency_links.txt\n'}
+[23.237151] (warehouse_robot_py) StdoutLine: {'line': b'writing entry points to ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/entry_points.txt\n'}
+[23.237826] (warehouse_robot_py) StdoutLine: {'line': b'writing requirements to ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/requires.txt\n'}
+[23.238141] (warehouse_robot_py) StdoutLine: {'line': b'writing top-level names to ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/top_level.txt\n'}
+[23.238501] (warehouse_robot_py) StdoutLine: {'line': b"writing manifest file '../../build/warehouse_robot_py/warehouse_robot_py.egg-info/SOURCES.txt'\n"}
+[23.248512] (warehouse_robot_py) StdoutLine: {'line': b"reading manifest file '../../build/warehouse_robot_py/warehouse_robot_py.egg-info/SOURCES.txt'\n"}
+[23.253025] (warehouse_robot_py) StdoutLine: {'line': b"writing manifest file '../../build/warehouse_robot_py/warehouse_robot_py.egg-info/SOURCES.txt'\n"}
+[23.256921] (warehouse_robot_py) StdoutLine: {'line': b'running build\n'}
+[23.257896] (warehouse_robot_py) StdoutLine: {'line': b'running build_py\n'}
+[23.258815] (warehouse_robot_py) StdoutLine: {'line': b'creating /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build\n'}
+[23.259956] (warehouse_robot_py) StdoutLine: {'line': b'creating /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib\n'}
+[23.262184] (warehouse_robot_py) StdoutLine: {'line': b'creating /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py\n'}
+[23.263308] (warehouse_robot_py) StdoutLine: {'line': b'copying warehouse_robot_py/item_delivery_server.py -> /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py\n'}
+[23.264659] (warehouse_robot_py) StdoutLine: {'line': b'copying warehouse_robot_py/stock_checker_server.py -> /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py\n'}
+[23.265477] (warehouse_robot_py) StdoutLine: {'line': b'copying warehouse_robot_py/__init__.py -> /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py\n'}
+[23.266262] (warehouse_robot_py) StdoutLine: {'line': b'copying warehouse_robot_py/stock_checker_client.py -> /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py\n'}
+[23.267943] (warehouse_robot_py) StdoutLine: {'line': b'running install\n'}
+[23.270053] (warehouse_robot_py) StdoutLine: {'line': b'running install_lib\n'}
+[23.274129] (warehouse_robot_py) StdoutLine: {'line': b'creating /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py\n'}
+[23.274987] (warehouse_robot_py) StdoutLine: {'line': b'copying /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py/item_delivery_server.py -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py\n'}
+[23.275761] (warehouse_robot_py) StdoutLine: {'line': b'copying /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py/stock_checker_server.py -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py\n'}
+[23.276539] (warehouse_robot_py) StdoutLine: {'line': b'copying /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py/__init__.py -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py\n'}
+[23.277272] (warehouse_robot_py) StdoutLine: {'line': b'copying /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py/stock_checker_client.py -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py\n'}
+[23.280404] (warehouse_robot_py) StdoutLine: {'line': b'byte-compiling /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py/item_delivery_server.py to item_delivery_server.cpython-310.pyc\n'}
+[23.283462] (warehouse_robot_py) StdoutLine: {'line': b'byte-compiling /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py/stock_checker_server.py to stock_checker_server.cpython-310.pyc\n'}
+[23.285683] (warehouse_robot_py) StdoutLine: {'line': b'byte-compiling /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py/__init__.py to __init__.cpython-310.pyc\n'}
+[23.287056] (warehouse_robot_py) StdoutLine: {'line': b'byte-compiling /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py/stock_checker_client.py to stock_checker_client.cpython-310.pyc\n'}
+[23.289315] (warehouse_robot_py) StdoutLine: {'line': b'running install_data\n'}
+[23.290036] (warehouse_robot_py) StdoutLine: {'line': b'creating /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/ament_index\n'}
+[23.291052] (warehouse_robot_py) StdoutLine: {'line': b'creating /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/ament_index/resource_index\n'}
+[23.291837] (warehouse_robot_py) StdoutLine: {'line': b'creating /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/ament_index/resource_index/packages\n'}
+[23.292666] (warehouse_robot_py) StdoutLine: {'line': b'copying resource/warehouse_robot_py -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/ament_index/resource_index/packages\n'}
+[23.293395] (warehouse_robot_py) StdoutLine: {'line': b'copying package.xml -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/warehouse_robot_py\n'}
+[23.294111] (warehouse_robot_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[23.300856] (-) TimerEvent: {}
+[23.304417] (warehouse_robot_py) StdoutLine: {'line': b'Copying ../../build/warehouse_robot_py/warehouse_robot_py.egg-info to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py-0.0.0-py3.10.egg-info\n'}
+[23.309939] (warehouse_robot_py) StdoutLine: {'line': b'running install_scripts\n'}
+[23.401446] (-) TimerEvent: {}
+[23.454226] (warehouse_robot_py) StdoutLine: {'line': b'Installing stock_checker_client script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py\n'}
+[23.455399] (warehouse_robot_py) StdoutLine: {'line': b'Installing stock_checker_server script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py\n'}
+[23.456619] (warehouse_robot_py) StdoutLine: {'line': b"writing list of installed files to '/home/anthony/Desktop/Assignment7/build/warehouse_robot_py/install.log'\n"}
+[23.501912] (-) TimerEvent: {}
+[23.572283] (warehouse_robot_py) CommandEnded: {'returncode': 0}
+[23.602346] (-) TimerEvent: {}
+[23.610825] (warehouse_robot_py) JobEnded: {'identifier': 'warehouse_robot_py', 'rc': 0}
+[23.614326] (-) EventReactorShutdown: {}

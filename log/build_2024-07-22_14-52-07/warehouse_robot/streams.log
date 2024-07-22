@@ -1,0 +1,183 @@
+[0.026s] Invoking command in '/home/anthony/Desktop/Assignment7/build/warehouse_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/Desktop/Assignment7/install/warehouse_robot_py:/home/anthony/Desktop/Assignment7/src/install/warehouse_robot_py:/opt/ros/humble /usr/bin/cmake --build /home/anthony/Desktop/Assignment7/build/warehouse_robot -- -j2 -l2
+[0.142s] [  2%] Built target warehouse_robot__cpp
+[0.147s] [ 12%] Built target warehouse_robot__rosidl_generator_c
+[0.202s] [ 23%] Built target warehouse_robot__rosidl_typesupport_cpp
+[0.217s] [ 23%] Built target ament_cmake_python_copy_warehouse_robot
+[0.258s] [ 43%] Built target warehouse_robot__rosidl_typesupport_introspection_c
+[0.259s] [ 43%] Built target warehouse_robot__rosidl_typesupport_fastrtps_c
+[0.296s] [ 53%] Built target warehouse_robot__rosidl_typesupport_c
+[0.313s] [ 64%] Built target warehouse_robot__rosidl_typesupport_fastrtps_cpp
+[0.341s] [ 74%] Built target warehouse_robot__rosidl_typesupport_introspection_cpp
+[0.406s] [ 74%] Built target warehouse_robot
+[0.475s] [ 76%] Built target warehouse_robot__py
+[0.554s] [ 84%] Built target warehouse_robot__rosidl_generator_py
+[0.610s] [ 89%] Built target warehouse_robot__rosidl_typesupport_fastrtps_c__pyext
+[0.697s] [ 94%] Built target warehouse_robot__rosidl_typesupport_introspection_c__pyext
+[0.774s] [100%] Built target warehouse_robot__rosidl_typesupport_c__pyext
+[0.887s] running egg_info
+[0.889s] writing warehouse_robot.egg-info/PKG-INFO
+[0.889s] writing dependency_links to warehouse_robot.egg-info/dependency_links.txt
+[0.890s] writing top-level names to warehouse_robot.egg-info/top_level.txt
+[0.893s] reading manifest file 'warehouse_robot.egg-info/SOURCES.txt'
+[0.894s] writing manifest file 'warehouse_robot.egg-info/SOURCES.txt'
+[0.968s] [100%] Built target ament_cmake_python_build_warehouse_robot_egg
+[1.038s] Invoked command in '/home/anthony/Desktop/Assignment7/build/warehouse_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/Desktop/Assignment7/install/warehouse_robot_py:/home/anthony/Desktop/Assignment7/src/install/warehouse_robot_py:/opt/ros/humble /usr/bin/cmake --build /home/anthony/Desktop/Assignment7/build/warehouse_robot -- -j2 -l2
+[1.296s] Invoking command in '/home/anthony/Desktop/Assignment7/build/warehouse_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/Desktop/Assignment7/install/warehouse_robot_py:/home/anthony/Desktop/Assignment7/src/install/warehouse_robot_py:/opt/ros/humble /usr/bin/cmake --install /home/anthony/Desktop/Assignment7/build/warehouse_robot
+[1.316s] -- Install configuration: ""
+[1.316s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/ament_index/resource_index/rosidl_interfaces/warehouse_robot
+[1.316s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot
+[1.316s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv
+[1.317s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/check_stock.h
+[1.317s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail
+[1.317s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__type_support.h
+[1.317s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__functions.c
+[1.318s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__functions.h
+[1.318s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__struct.h
+[1.318s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/msg
+[1.318s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/msg/rosidl_generator_c__visibility_control.h
+[1.318s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action
+[1.319s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/deliver_item.h
+[1.319s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail
+[1.319s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__functions.h
+[1.319s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__functions.c
+[1.320s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__type_support.h
+[1.320s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__struct.h
+[1.320s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/environment/library_path.sh
+[1.321s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/environment/library_path.dsv
+[1.321s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_generator_c.so
+[1.322s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot
+[1.322s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv
+[1.322s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail
+[1.322s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__rosidl_typesupport_fastrtps_c.h
+[1.323s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/msg
+[1.323s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.323s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action
+[1.323s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail
+[1.323s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__rosidl_typesupport_fastrtps_c.h
+[1.324s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_typesupport_fastrtps_c.so
+[1.324s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot
+[1.325s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv
+[1.325s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail
+[1.325s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__rosidl_typesupport_introspection_c.h
+[1.325s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__type_support.c
+[1.326s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/msg
+[1.326s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.326s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action
+[1.326s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail
+[1.326s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__type_support.c
+[1.327s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__rosidl_typesupport_introspection_c.h
+[1.327s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_typesupport_introspection_c.so
+[1.328s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_typesupport_c.so
+[1.328s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot
+[1.328s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv
+[1.329s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/check_stock.hpp
+[1.329s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail
+[1.332s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__builder.hpp
+[1.332s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__struct.hpp
+[1.332s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__traits.hpp
+[1.332s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action
+[1.333s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/deliver_item.hpp
+[1.333s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail
+[1.334s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__traits.hpp
+[1.334s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__struct.hpp
+[1.334s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__builder.hpp
+[1.335s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot
+[1.335s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv
+[1.335s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail
+[1.336s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__rosidl_typesupport_fastrtps_cpp.hpp
+[1.336s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/dds_fastrtps
+[1.336s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/msg
+[1.336s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.337s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action
+[1.337s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail
+[1.337s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__rosidl_typesupport_fastrtps_cpp.hpp
+[1.337s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/dds_fastrtps
+[1.338s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_typesupport_fastrtps_cpp.so
+[1.338s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot
+[1.339s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv
+[1.339s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail
+[1.339s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__type_support.cpp
+[1.340s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp
+[1.340s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action
+[1.340s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail
+[1.341s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__type_support.cpp
+[1.341s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/include/warehouse_robot/warehouse_robot/action/detail/deliver_item__rosidl_typesupport_introspection_cpp.hpp
+[1.342s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_typesupport_introspection_cpp.so
+[1.343s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_typesupport_cpp.so
+[1.343s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/environment/pythonpath.sh
+[1.344s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/environment/pythonpath.dsv
+[1.344s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot-0.0.0-py3.10.egg-info
+[1.344s] -- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot-0.0.0-py3.10.egg-info/PKG-INFO
+[1.345s] -- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.346s] -- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.347s] -- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot-0.0.0-py3.10.egg-info/top_level.txt
+[1.348s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot
+[1.348s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/srv
+[1.348s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/srv/_check_stock.py
+[1.349s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/srv/__init__.py
+[1.349s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/srv/_check_stock_s.c
+[1.349s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/libwarehouse_robot__rosidl_generator_py.so
+[1.349s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/_warehouse_robot_s.ep.rosidl_typesupport_introspection_c.c
+[1.349s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/_warehouse_robot_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.351s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/warehouse_robot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.351s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/_warehouse_robot_s.ep.rosidl_typesupport_c.c
+[1.351s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/__init__.py
+[1.351s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/warehouse_robot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.352s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/action
+[1.352s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/action/__init__.py
+[1.352s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/action/_deliver_item_s.c
+[1.352s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/action/_deliver_item.py
+[1.352s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/warehouse_robot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.395s] Listing '/home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot'...
+[1.395s] Listing '/home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/action'...
+[1.395s] Listing '/home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/srv'...
+[1.399s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/warehouse_robot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.400s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/warehouse_robot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.400s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages/warehouse_robot/warehouse_robot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.401s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/lib/libwarehouse_robot__rosidl_generator_py.so
+[1.401s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/action/DeliverItem.idl
+[1.401s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/srv/CheckStock.idl
+[1.401s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/action/DeliverItem.action
+[1.401s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/srv/CheckStock.srv
+[1.401s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/srv/CheckStock_Request.msg
+[1.402s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/srv/CheckStock_Response.msg
+[1.402s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/ament_index/resource_index/package_run_dependencies/warehouse_robot
+[1.402s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/ament_index/resource_index/parent_prefix_path/warehouse_robot
+[1.402s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/environment/ament_prefix_path.sh
+[1.402s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/environment/ament_prefix_path.dsv
+[1.402s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/environment/path.sh
+[1.402s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/environment/path.dsv
+[1.403s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/local_setup.bash
+[1.403s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/local_setup.sh
+[1.403s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/local_setup.zsh
+[1.403s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/local_setup.dsv
+[1.403s] -- Installing: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/package.dsv
+[1.404s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/ament_index/resource_index/packages/warehouse_robot
+[1.404s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_generator_cExport.cmake
+[1.404s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_generator_cExport-noconfig.cmake
+[1.404s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_typesupport_fastrtps_cExport.cmake
+[1.404s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.405s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robot__rosidl_typesupport_introspection_cExport.cmake
+[1.405s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robot__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.405s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robot__rosidl_typesupport_cExport.cmake
+[1.405s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robot__rosidl_typesupport_cExport-noconfig.cmake
+[1.405s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_generator_cppExport.cmake
+[1.405s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.406s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.406s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robot__rosidl_typesupport_introspection_cppExport.cmake
+[1.406s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robot__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.406s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robot__rosidl_typesupport_cppExport.cmake
+[1.406s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robot__rosidl_typesupport_cppExport-noconfig.cmake
+[1.407s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_generator_pyExport.cmake
+[1.407s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/export_warehouse_robot__rosidl_generator_pyExport-noconfig.cmake
+[1.407s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/rosidl_cmake-extras.cmake
+[1.407s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.407s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.407s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/ament_cmake_export_libraries-extras.cmake
+[1.407s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/ament_cmake_export_targets-extras.cmake
+[1.407s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.408s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.408s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robotConfig.cmake
+[1.408s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/cmake/warehouse_robotConfig-version.cmake
+[1.409s] -- Up-to-date: /home/anthony/Desktop/Assignment7/install/warehouse_robot/share/warehouse_robot/package.xml
+[1.411s] Invoked command in '/home/anthony/Desktop/Assignment7/build/warehouse_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/Desktop/Assignment7/install/warehouse_robot_py:/home/anthony/Desktop/Assignment7/src/install/warehouse_robot_py:/opt/ros/humble /usr/bin/cmake --install /home/anthony/Desktop/Assignment7/build/warehouse_robot

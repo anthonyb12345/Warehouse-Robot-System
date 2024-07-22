@@ -1,0 +1,1 @@
+/home/anthony/Desktop/Assignment7/src/build/warehouse_robot/ament_cmake_environment_hooks/local_setup.zsh

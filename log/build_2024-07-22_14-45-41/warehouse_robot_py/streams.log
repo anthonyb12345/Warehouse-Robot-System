@@ -1,0 +1,27 @@
+[1.112s] Invoking command in '/home/anthony/Desktop/Assignment7/src/warehouse_robot_py': PYTHONPATH=/home/anthony/Desktop/Assignment7/build/warehouse_robot_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot_py build --build-base /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build install --record /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/install.log --single-version-externally-managed install_data
+[1.435s] running egg_info
+[1.436s] writing ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/PKG-INFO
+[1.437s] writing dependency_links to ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/dependency_links.txt
+[1.437s] writing entry points to ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/entry_points.txt
+[1.437s] writing requirements to ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/requires.txt
+[1.437s] writing top-level names to ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/top_level.txt
+[1.439s] reading manifest file '../../build/warehouse_robot_py/warehouse_robot_py.egg-info/SOURCES.txt'
+[1.443s] writing manifest file '../../build/warehouse_robot_py/warehouse_robot_py.egg-info/SOURCES.txt'
+[1.443s] running build
+[1.443s] running build_py
+[1.444s] copying warehouse_robot_py/item_delivery_server.py -> /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py
+[1.445s] running install
+[1.446s] running install_lib
+[1.447s] copying /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py/item_delivery_server.py -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py
+[1.449s] byte-compiling /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py/item_delivery_server.py to item_delivery_server.cpython-310.pyc
+[1.451s] running install_data
+[1.452s] running install_egg_info
+[1.454s] removing '/home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py-0.0.0-py3.10.egg-info' (and everything under it)
+[1.455s] Copying ../../build/warehouse_robot_py/warehouse_robot_py.egg-info to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py-0.0.0-py3.10.egg-info
+[1.456s] running install_scripts
+[1.495s] Installing item_delivery_client script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+[1.496s] Installing item_delivery_server script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+[1.496s] Installing stock_checker_client script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+[1.497s] Installing stock_checker_server script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+[1.497s] writing list of installed files to '/home/anthony/Desktop/Assignment7/build/warehouse_robot_py/install.log'
+[1.534s] Invoked command in '/home/anthony/Desktop/Assignment7/src/warehouse_robot_py' returned '0': PYTHONPATH=/home/anthony/Desktop/Assignment7/build/warehouse_robot_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot_py build --build-base /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build install --record /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/install.log --single-version-externally-managed install_data

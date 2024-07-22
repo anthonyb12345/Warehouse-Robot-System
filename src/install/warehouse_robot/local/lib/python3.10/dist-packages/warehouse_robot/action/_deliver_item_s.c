@@ -1,0 +1,1 @@
+/home/anthony/Desktop/Assignment7/src/build/warehouse_robot/rosidl_generator_py/warehouse_robot/action/_deliver_item_s.c

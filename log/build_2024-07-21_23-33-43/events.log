@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.002090] (warehouse_robot_interfaces) JobQueued: {'identifier': 'warehouse_robot_interfaces', 'dependencies': OrderedDict()}
+[0.002929] (warehouse_robot_interfaces) JobStarted: {'identifier': 'warehouse_robot_interfaces'}
+[0.040529] (warehouse_robot_interfaces) JobProgress: {'identifier': 'warehouse_robot_interfaces', 'progress': 'cmake'}
+[0.044481] (warehouse_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/anthony/Desktop/Assignment7/src/warehouse_robot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/anthony/Desktop/Assignment7/install/warehouse_robot_interfaces'], 'cwd': '/home/anthony/Desktop/Assignment7/build/warehouse_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'anthony'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anthony/Desktop/Assignment7/install/warehouse_robot/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anthony'), ('OLDPWD', '/home/anthony/Desktop/Assignment7/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '3070'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthony/Desktop/Assignment7/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anthony'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anthony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anthony-virtual-machine:@/tmp/.ICE-unix/2878,unix/anthony-virtual-machine:/tmp/.ICE-unix/2878'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/201c38ed_eba4_47bd_a35a_93fe9c6fe45e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O0N8Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anthony/Desktop/Assignment7/install/warehouse_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anthony/Desktop/Assignment7/build/warehouse_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anthony/Desktop/Assignment7/install/warehouse_robot:/opt/ros/humble')]), 'shell': False}
+[0.096924] (-) TimerEvent: {}
+[0.198315] (-) TimerEvent: {}
+[0.299973] (-) TimerEvent: {}
+[0.371574] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401507] (-) TimerEvent: {}
+[0.509105] (-) TimerEvent: {}
+[0.610715] (-) TimerEvent: {}
+[0.635870] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.672264] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.711224] (-) TimerEvent: {}
+[0.812918] (-) TimerEvent: {}
+[0.914246] (-) TimerEvent: {}
+[1.015393] (-) TimerEvent: {}
+[1.018991] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.046076] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.049075] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.052508] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.064895] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.115759] (-) TimerEvent: {}
+[1.217268] (-) TimerEvent: {}
+[1.318822] (-) TimerEvent: {}
+[1.413756] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.422863] (-) TimerEvent: {}
+[1.443028] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.443894] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.445372] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.460801] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.523333] (-) TimerEvent: {}
+[1.625285] (-) TimerEvent: {}
+[1.739882] (-) TimerEvent: {}
+[1.850733] (-) TimerEvent: {}
+[1.952283] (-) TimerEvent: {}
+[2.054061] (-) TimerEvent: {}
+[2.073708] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.156314] (-) TimerEvent: {}
+[2.259263] (-) TimerEvent: {}
+[2.360853] (-) TimerEvent: {}
+[2.461874] (-) TimerEvent: {}
+[2.536428] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.548805] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.573675] (-) TimerEvent: {}
+[2.577709] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.684820] (-) TimerEvent: {}
+[2.756496] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.794453] (-) TimerEvent: {}
+[2.895966] (-) TimerEvent: {}
+[2.997945] (-) TimerEvent: {}
+[3.099284] (-) TimerEvent: {}
+[3.202209] (-) TimerEvent: {}
+[3.309798] (-) TimerEvent: {}
+[3.417713] (-) TimerEvent: {}
+[3.518720] (-) TimerEvent: {}
+[3.620505] (-) TimerEvent: {}
+[3.721712] (-) TimerEvent: {}
+[3.822934] (-) TimerEvent: {}
+[3.932400] (-) TimerEvent: {}
+[3.942202] (warehouse_robot_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):\n'}
+[3.943098] (warehouse_robot_interfaces) StderrLine: {'line': b"  ament_package_xml() package name 'warehouse_robot_interfaces' in\n"}
+[3.943429] (warehouse_robot_interfaces) StderrLine: {'line': b"  '/package.xml' does not match current PROJECT_NAME\n"}
+[3.943695] (warehouse_robot_interfaces) StderrLine: {'line': b"  'warehouse_robot_interafces'.  You must call project() with the same\n"}
+[3.943943] (warehouse_robot_interfaces) StderrLine: {'line': b'  package name before.\n'}
+[3.944302] (warehouse_robot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.944668] (warehouse_robot_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)\n'}
+[3.944932] (warehouse_robot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:12 (rosidl_generate_interfaces)\n'}
+[3.945326] (warehouse_robot_interfaces) StderrLine: {'line': b'\n'}
+[3.945606] (warehouse_robot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[3.947268] (warehouse_robot_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.947704] (warehouse_robot_interfaces) StdoutLine: {'line': b'See also "/home/anthony/Desktop/Assignment7/build/warehouse_robot_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[3.966280] (warehouse_robot_interfaces) CommandEnded: {'returncode': 1}
+[4.032934] (-) TimerEvent: {}
+[4.065764] (warehouse_robot_interfaces) JobEnded: {'identifier': 'warehouse_robot_interfaces', 'rc': 1}
+[4.068666] (-) EventReactorShutdown: {}

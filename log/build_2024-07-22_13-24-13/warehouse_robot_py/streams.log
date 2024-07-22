@@ -1,0 +1,44 @@
+[3.619s] Invoking command in '/home/anthony/Desktop/Assignment7/src/warehouse_robot_py': AMENT_PREFIX_PATH=/home/anthony/Desktop/Assignment7/install/warehouse_robot:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anthony/Desktop/Assignment7/install/warehouse_robot LD_LIBRARY_PATH=/home/anthony/Desktop/Assignment7/install/warehouse_robot/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anthony/Desktop/Assignment7/build/warehouse_robot_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages:/home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot_py build --build-base /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build install --record /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/install.log --single-version-externally-managed install_data
+[5.089s] running egg_info
+[5.098s] creating ../../build/warehouse_robot_py/warehouse_robot_py.egg-info
+[5.099s] writing ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/PKG-INFO
+[5.100s] writing dependency_links to ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/dependency_links.txt
+[5.100s] writing entry points to ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/entry_points.txt
+[5.101s] writing requirements to ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/requires.txt
+[5.101s] writing top-level names to ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/top_level.txt
+[5.101s] writing manifest file '../../build/warehouse_robot_py/warehouse_robot_py.egg-info/SOURCES.txt'
+[5.112s] reading manifest file '../../build/warehouse_robot_py/warehouse_robot_py.egg-info/SOURCES.txt'
+[5.116s] writing manifest file '../../build/warehouse_robot_py/warehouse_robot_py.egg-info/SOURCES.txt'
+[5.120s] running build
+[5.121s] running build_py
+[5.122s] creating /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build
+[5.124s] creating /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib
+[5.125s] creating /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py
+[5.127s] copying warehouse_robot_py/item_delivery_server.py -> /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py
+[5.128s] copying warehouse_robot_py/stock_checker_server.py -> /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py
+[5.128s] copying warehouse_robot_py/__init__.py -> /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py
+[5.129s] copying warehouse_robot_py/stock_checker_client.py -> /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py
+[5.131s] running install
+[5.133s] running install_lib
+[5.137s] creating /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py
+[5.138s] copying /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py/item_delivery_server.py -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py
+[5.139s] copying /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py/stock_checker_server.py -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py
+[5.139s] copying /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py/__init__.py -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py
+[5.140s] copying /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build/lib/warehouse_robot_py/stock_checker_client.py -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py
+[5.143s] byte-compiling /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py/item_delivery_server.py to item_delivery_server.cpython-310.pyc
+[5.146s] byte-compiling /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py/stock_checker_server.py to stock_checker_server.cpython-310.pyc
+[5.149s] byte-compiling /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py/__init__.py to __init__.cpython-310.pyc
+[5.150s] byte-compiling /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py/stock_checker_client.py to stock_checker_client.cpython-310.pyc
+[5.152s] running install_data
+[5.153s] creating /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/ament_index
+[5.154s] creating /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/ament_index/resource_index
+[5.155s] creating /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/ament_index/resource_index/packages
+[5.156s] copying resource/warehouse_robot_py -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/ament_index/resource_index/packages
+[5.156s] copying package.xml -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/warehouse_robot_py
+[5.157s] running install_egg_info
+[5.167s] Copying ../../build/warehouse_robot_py/warehouse_robot_py.egg-info to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py-0.0.0-py3.10.egg-info
+[5.173s] running install_scripts
+[5.317s] Installing stock_checker_client script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+[5.318s] Installing stock_checker_server script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+[5.320s] writing list of installed files to '/home/anthony/Desktop/Assignment7/build/warehouse_robot_py/install.log'
+[5.436s] Invoked command in '/home/anthony/Desktop/Assignment7/src/warehouse_robot_py' returned '0': AMENT_PREFIX_PATH=/home/anthony/Desktop/Assignment7/install/warehouse_robot:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anthony/Desktop/Assignment7/install/warehouse_robot LD_LIBRARY_PATH=/home/anthony/Desktop/Assignment7/install/warehouse_robot/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anthony/Desktop/Assignment7/build/warehouse_robot_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages:/home/anthony/Desktop/Assignment7/install/warehouse_robot/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot_py build --build-base /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build install --record /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/install.log --single-version-externally-managed install_data

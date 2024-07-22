@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/dependency_links.txt
+writing entry points to ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/entry_points.txt
+writing requirements to ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/requires.txt
+writing top-level names to ../../build/warehouse_robot_py/warehouse_robot_py.egg-info/top_level.txt
+reading manifest file '../../build/warehouse_robot_py/warehouse_robot_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/warehouse_robot_py/warehouse_robot_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/warehouse_robot_py/launch
+copying launch/warehouse_robot_launch.py -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/warehouse_robot_py/launch
+running install_egg_info
+removing '/home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/warehouse_robot_py/warehouse_robot_py.egg-info to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse_robot_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing item_delivery_client script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+Installing item_delivery_server script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+Installing stock_checker_client script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+Installing stock_checker_server script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+writing list of installed files to '/home/anthony/Desktop/Assignment7/build/warehouse_robot_py/install.log'

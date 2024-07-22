@@ -1,0 +1,32 @@
+[0.049s] Invoking command in '/home/anthony/Desktop/Assignment7/build/warehouse_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/anthony/Desktop/Assignment7/src/warehouse_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/anthony/Desktop/Assignment7/install/warehouse_robot_interfaces
+[0.369s] -- The C compiler identification is GNU 11.4.0
+[0.633s] -- The CXX compiler identification is GNU 11.4.0
+[0.670s] -- Detecting C compiler ABI info
+[1.016s] -- Detecting C compiler ABI info - done
+[1.043s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.046s] -- Detecting C compile features
+[1.050s] -- Detecting C compile features - done
+[1.062s] -- Detecting CXX compiler ABI info
+[1.411s] -- Detecting CXX compiler ABI info - done
+[1.440s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.441s] -- Detecting CXX compile features
+[1.443s] -- Detecting CXX compile features - done
+[1.459s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.071s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.534s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.546s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.575s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.754s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.940s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[3.940s]   ament_package_xml() package name 'warehouse_robot_interfaces' in
+[3.941s]   '/package.xml' does not match current PROJECT_NAME
+[3.941s]   'warehouse_robot_interafces'.  You must call project() with the same
+[3.941s]   package name before.
+[3.942s] Call Stack (most recent call first):
+[3.942s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[3.942s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[3.942s] 
+[3.943s] [0m
+[3.945s] -- Configuring incomplete, errors occurred!
+[3.945s] See also "/home/anthony/Desktop/Assignment7/build/warehouse_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[3.965s] Invoked command in '/home/anthony/Desktop/Assignment7/build/warehouse_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/anthony/Desktop/Assignment7/src/warehouse_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/anthony/Desktop/Assignment7/install/warehouse_robot_interfaces

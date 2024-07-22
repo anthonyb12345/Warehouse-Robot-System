@@ -1,0 +1,6 @@
+[console_scripts]
+item_delivery_client = warehouse_robot_py.item_delivery_client:main
+item_delivery_server = warehouse_robot_py.item_delivery_server:main
+stock_checker_client = warehouse_robot_py.stock_checker_client:main
+stock_checker_server = warehouse_robot_py.stock_checker_server:main
+

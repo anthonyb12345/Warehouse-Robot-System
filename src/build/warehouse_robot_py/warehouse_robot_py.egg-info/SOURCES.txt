@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+launch/warehouse_robot_launch.py
+resource/warehouse_robot_py
+warehouse_robot_py/__init__.py
+warehouse_robot_py/item_delivery_client.py
+warehouse_robot_py/item_delivery_server.py
+warehouse_robot_py/stock_checker_client.py
+warehouse_robot_py/stock_checker_server.py
+warehouse_robot_py.egg-info/PKG-INFO
+warehouse_robot_py.egg-info/SOURCES.txt
+warehouse_robot_py.egg-info/dependency_links.txt
+warehouse_robot_py.egg-info/entry_points.txt
+warehouse_robot_py.egg-info/requires.txt
+warehouse_robot_py.egg-info/top_level.txt
+warehouse_robot_py.egg-info/zip-safe

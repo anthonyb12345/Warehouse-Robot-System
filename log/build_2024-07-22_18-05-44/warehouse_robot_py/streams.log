@@ -1,0 +1,22 @@
+[1.192s] Invoking command in '/home/anthony/Desktop/Assignment7/build/warehouse_robot_py': PYTHONPATH=/home/anthony/Desktop/Assignment7/build/warehouse_robot_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build --no-deps symlink_data
+[1.617s] running develop
+[1.617s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.617s]   warnings.warn(
+[2.004s] running egg_info
+[2.005s] writing warehouse_robot_py.egg-info/PKG-INFO
+[2.008s] writing dependency_links to warehouse_robot_py.egg-info/dependency_links.txt
+[2.008s] writing entry points to warehouse_robot_py.egg-info/entry_points.txt
+[2.009s] writing requirements to warehouse_robot_py.egg-info/requires.txt
+[2.009s] writing top-level names to warehouse_robot_py.egg-info/top_level.txt
+[2.012s] reading manifest file 'warehouse_robot_py.egg-info/SOURCES.txt'
+[2.014s] writing manifest file 'warehouse_robot_py.egg-info/SOURCES.txt'
+[2.016s] running build_ext
+[2.017s] Creating /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse-robot-py.egg-link (link to .)
+[2.019s] Installing item_delivery_client script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+[2.019s] Installing item_delivery_server script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+[2.019s] Installing stock_checker_client script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+[2.020s] Installing stock_checker_server script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+[2.021s] 
+[2.021s] Installed /home/anthony/Desktop/Assignment7/build/warehouse_robot_py
+[2.021s] running symlink_data
+[2.078s] Invoked command in '/home/anthony/Desktop/Assignment7/build/warehouse_robot_py' returned '0': PYTHONPATH=/home/anthony/Desktop/Assignment7/build/warehouse_robot_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/build --no-deps symlink_data

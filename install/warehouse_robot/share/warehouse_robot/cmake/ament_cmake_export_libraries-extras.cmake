@@ -1,0 +1,1 @@
+/home/anthony/Desktop/Assignment7/build/warehouse_robot/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

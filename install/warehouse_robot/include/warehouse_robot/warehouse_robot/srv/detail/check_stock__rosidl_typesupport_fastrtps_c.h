@@ -1,0 +1,1 @@
+/home/anthony/Desktop/Assignment7/build/warehouse_robot/rosidl_typesupport_fastrtps_c/warehouse_robot/srv/detail/check_stock__rosidl_typesupport_fastrtps_c.h

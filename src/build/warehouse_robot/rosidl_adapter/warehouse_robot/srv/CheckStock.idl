@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from warehouse_robot/srv/CheckStock.srv
+// generated code does not contain a copyright notice
+
+
+module warehouse_robot {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request ")
+    struct CheckStock_Request {
+      string item_name;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct CheckStock_Response {
+      int32 stock_level;
+    };
+  };
+};

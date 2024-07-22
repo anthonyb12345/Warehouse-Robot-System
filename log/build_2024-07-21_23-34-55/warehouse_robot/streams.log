@@ -1,0 +1,5 @@
+[0.065s] Invoking command in '/home/anthony/Desktop/Assignment7/build/warehouse_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anthony/Desktop/Assignment7/build/warehouse_robot -- -j2 -l2
+[0.147s] [0mCMake Error: The source directory "/home/anthony/Desktop/Assignment7/src/warehouse_robot" does not exist.
+[0.147s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.152s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.159s] Invoked command in '/home/anthony/Desktop/Assignment7/build/warehouse_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anthony/Desktop/Assignment7/build/warehouse_robot -- -j2 -l2

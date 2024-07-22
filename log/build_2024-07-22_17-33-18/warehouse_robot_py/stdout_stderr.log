@@ -1,0 +1,29 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating warehouse_robot_py.egg-info
+writing warehouse_robot_py.egg-info/PKG-INFO
+writing dependency_links to warehouse_robot_py.egg-info/dependency_links.txt
+writing entry points to warehouse_robot_py.egg-info/entry_points.txt
+writing requirements to warehouse_robot_py.egg-info/requires.txt
+writing top-level names to warehouse_robot_py.egg-info/top_level.txt
+writing manifest file 'warehouse_robot_py.egg-info/SOURCES.txt'
+reading manifest file 'warehouse_robot_py.egg-info/SOURCES.txt'
+writing manifest file 'warehouse_robot_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/python3.10/site-packages/warehouse-robot-py.egg-link (link to .)
+Installing item_delivery_client script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+Installing item_delivery_server script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+Installing stock_checker_client script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+Installing stock_checker_server script to /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/lib/warehouse_robot_py
+
+Installed /home/anthony/Desktop/Assignment7/build/warehouse_robot_py
+running symlink_data
+creating /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/ament_index
+creating /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/ament_index/resource_index
+creating /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/ament_index/resource_index/packages
+symbolically linking /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/resource/warehouse_robot_py -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/ament_index/resource_index/packages
+symbolically linking /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/package.xml -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/warehouse_robot_py
+creating /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/warehouse_robot_py/launch
+symbolically linking /home/anthony/Desktop/Assignment7/build/warehouse_robot_py/launch/warehouse_robot_launch.py -> /home/anthony/Desktop/Assignment7/install/warehouse_robot_py/share/warehouse_robot_py/launch

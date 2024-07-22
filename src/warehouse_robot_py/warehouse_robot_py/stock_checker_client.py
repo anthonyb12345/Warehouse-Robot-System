@@ -1,6 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from warehouse_robot.srv import CheckStock
+import matplotlib.pyplot as plt
 
 class StockCheckerClient(Node):
     '''
@@ -30,23 +31,52 @@ class StockCheckerClient(Node):
         # Wait for the service to be available
         while not self.client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('StockChecker service not available, waiting again...')
+        
+
     def check_stock(self, item_name):
         request = CheckStock.Request()
         request.item_name = item_name
         future = self.client.call_async(request)
         rclpy.spin_until_future_complete(self, future)
         return future.result().stock_level
-        
     
+    def check_and_get_stock_levels(self, item_names):
+        stock_levels = {}
+        for item_name in item_names:
+            stock_level = self.check_stock(item_name)
+            stock_levels[item_name] = stock_level
+        return stock_levels
+
+    def plot_stock_levels(self, stock_levels):
+        items = list(stock_levels.keys())
+        levels = list(stock_levels.values())
+
+        plt.figure(figsize=(10, 6))
+        plt.bar(items, levels, color='skyblue')
+        plt.xlabel('Items')
+        plt.ylabel('Stock Level')
+        plt.title('Stock Levels of Items')
+        plt.ylim(0, max(levels) + 5)  # Set y-axis limit
+        plt.grid(axis='y', linestyle='--', alpha=0.7)
+        plt.show()
+
     
         
 
 def main(args=None):
     rclpy.init(args=args)
-    stock_checker_service_client = StockCheckerClient()
-    # stock_checker_service_client.check_stock('item1')
-    rclpy.spin(stock_checker_service_client)
-    stock_checker_service_client.destroy_node()
+    stock_checker_client = StockCheckerClient()
+
+    # Items to check stock levels for
+    item_names = ['item1', 'item2']
+
+    # Check stock levels
+    stock_levels = stock_checker_client.check_and_get_stock_levels(item_names)
+
+    # Plot stock levels
+    stock_checker_client.plot_stock_levels(stock_levels)
+
+    stock_checker_client.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
